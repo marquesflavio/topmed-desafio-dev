@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+
+:root{
+    --fontTitulo: 'Almarai', sans-serif;
+    --fontTexto: 'Alata', sans-serif;
+}
+body{
+    background-color: #E5E5E5;
+    font-family: var(--fontTexto);
+}
+.App{ 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+}

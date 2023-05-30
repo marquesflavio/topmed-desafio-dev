@@ -1,0 +1,124 @@
+
+.box-bemvindo {
+    width: 320px;
+    height: 300px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px 0 0 20px;
+    line-height: 24.8px;
+    box-shadow: 3.06189px 3.06189px 10px 3.06189px rgba(0, 0, 0, 0.22);
+    
+}
+.box-bemvindo h1{
+    margin: 20px 0 6px 30px;
+    font-weight: 400;
+    font-family: var(--fontTitulo);
+    font-size: 28px;
+
+}
+.texto-cabecalho{
+    margin: 8px 0 10px 30px;
+    color: #5C5959;
+    line-height: 17px;
+    font-size: 13px;
+}
+.campo-login{
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.campo-login input{
+    margin: 20px 0 0 0;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.22);
+    padding: 5px;
+}
+.campo-login p{
+    color: #5C5959;
+    line-height: 17px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.campo-login p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.campo-login button{
+    width: 132px;
+    height: 27px;
+    border-radius: 11.22px;
+    background-color:#3E9F96;
+    color:white;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 2.2439px 2.2439px rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+    margin: 40px 0 0 0;
+}
+
+/*Imagens e logos*/
+.campo-imagem{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-topmed{
+    width: 51.68px;
+    height: 13.5px;
+}
+.logo-nextplus{
+    width: 35px;
+    height: 24.84px;
+}
+
+/*Lado verde do container*/
+.box-teste {
+    width: 231px;
+    height: 300px;
+    padding: 20px;
+    background: linear-gradient(180deg, #68F9EB -310.94%, rgba(53, 140, 132, 0.98) 150%);
+    border-radius: 0 20px 20px 0;
+    box-shadow: 3.06189px 3.06189px 10px 3.06189px rgba(0, 0, 0, 0.22);
+}
+.box-teste h1{
+    margin: 15px 23px 8px 0px;
+    color: white;
+    font-weight: 100;
+    font-size: 27px;
+    line-height: 25px;
+}
+.box-teste p{
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    
+}
+.box-teste-img{
+   display: flex;
+   justify-content: space-around;
+   margin: 25px 10px 20px 0;
+}
+.img-svg1{
+    width: 150px;
+}
+.container-botao{
+    display: flex;
+
+    justify-content: center;
+}
+.box-teste button{
+    width: 132px;
+    height: 27px;
+    border-radius: 11.22px;
+    background-color:#FFF;
+    color:#284F72;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 2.2439px 2.2439px rgba(0, 0, 0, 0.25);
+    margin: 20px 0;
+}
+button:hover{
+    cursor: pointer;
+}

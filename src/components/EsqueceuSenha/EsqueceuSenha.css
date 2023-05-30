@@ -1,0 +1,47 @@
+.container-esqueceu-senha{
+    width: 245px;
+    height: 350px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px;
+    line-height: 24.8px;
+    box-shadow: 3.06189px 3.06189px 3.06189px 3.06189px rgba(0, 0, 0, 0.22);
+}
+.titulo-esqueceu-senha{
+    font-weight: 400;
+    font-size: 22px;
+    margin: 8px 0 10px 5px;
+
+    text-align: left;
+}
+.container-esqueceu-senha p{
+    font-size: 13px;
+    color: #5C5959;
+    margin: 0 45px 0 10px;
+}
+.campo-esqueceu-enviar{
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.campo-esqueceu-enviar input{
+    margin: 20px 0 0 0;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.22);
+    padding: 5px;
+}
+.campo-esqueceu-enviar button{
+    width: 132px;
+    height: 27px;
+    border-radius: 11.22px;
+    background-color:#3E9F96;
+    color:white;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 2.2439px 2.2439px rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+    margin: 40px 0 70px 0;
+}

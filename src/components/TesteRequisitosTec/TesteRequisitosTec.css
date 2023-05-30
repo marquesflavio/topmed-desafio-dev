@@ -1,0 +1,94 @@
+.container-teste-requisitos {
+    width: 245px;
+    height: 350px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px 0 0 20px;
+    line-height: 24.8px;
+    box-shadow: 0px 2.2439px 2.2439px rgba(0, 0, 0, 0.25);
+}
+.titulo-cabecalho{
+    margin: 8px 0 10px 5px;
+    font-size: 20px;
+    text-align: left;
+}
+.container-teste{
+    width: 226px;
+    background-color: #3e9f953f;
+    border-radius: 2px;
+    padding: 3px;
+    margin: 10px 5px;
+    font-size: 13px;
+    color: #3E9F96;
+}
+.container-teste img{
+    margin: 0 10px;
+}
+.erro{
+    background-color: #e23a3a33;
+    color: #991616;
+}
+
+
+/*Lado direito do container de testes*/
+
+.container-teste-camera {
+    width: 170px;
+    height: 350px;
+    padding: 20px;
+    background: linear-gradient(180deg, #68F9EB -310.94%, rgba(53, 140, 132, 0.98) 150%);
+    border-radius: 0 20px 20px 0;
+    box-shadow: 0px 2.2439px 2.2439px rgba(0, 0, 0, 0.25);
+    
+}
+.container-teste-camera-icone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px 0 -30px 0;
+}
+.container-teste-camera p{
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    
+}
+.container-teste-camera img{
+   display: flex;
+   justify-content: space-around;
+   margin: 25px 10px 20px 0;
+}
+.img-svg1{
+    width: 150px;
+}
+.container-botao{
+    display: flex;
+
+    justify-content: center;
+}
+.container-teste-camera button{
+    width: 132px;
+    height: 27px;
+    border-radius: 11.22px;
+    background-color:#FFF;
+    color:#284F72;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 2.2439px 2.2439px rgba(0, 0, 0, 0.25);
+    margin: 20px 0;
+}
+button:hover{
+    cursor: pointer;
+}
+.campo-imagem{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-topmed{
+    width: 51.68px;
+    height: 13.5px;
+}
+.logo-nextplus{
+    width: 35px;
+    height: 24.84px;
+}
