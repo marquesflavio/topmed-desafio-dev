@@ -1,0 +1,1 @@
+## Para executar projeto, acessar link : [deploy via Vercel ao final do projeto]
