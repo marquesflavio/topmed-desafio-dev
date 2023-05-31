@@ -1,6 +1,6 @@
-.container-teste-requisitos {
+.container-teste-requisitostec {
     width: 245px;
-    height: 350px;
+    height: 375px;
     padding: 20px;
     background: #fff;
     border-radius: 20px 0 0 20px;
@@ -34,7 +34,7 @@
 
 .container-teste-camera {
     width: 170px;
-    height: 350px;
+    height: 375px;
     padding: 20px;
     background: linear-gradient(180deg, #68F9EB -310.94%, rgba(53, 140, 132, 0.98) 150%);
     border-radius: 0 20px 20px 0;

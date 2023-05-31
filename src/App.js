@@ -1,5 +1,4 @@
 import './App.css';
-import RedefinirSenha from './components/RedefinirSenha/RedefinirSenha';
 import AppRoutes from './routes';
 
 
@@ -8,7 +7,6 @@ function App() {
 
     <div>
       <AppRoutes/>
-      <RedefinirSenha/>
     </div>
   );
 }

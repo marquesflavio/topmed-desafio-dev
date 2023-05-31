@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 const TesteRequisitosTec = () =>{
     return(
         <div className="App">
-            <div className='container-teste-requisitos'>
+            <div className='container-teste-requisitostec'>
                 <p className='titulo-cabecalho'>Teste de requisitos técnicos</p>
                 <div>
                     <div className='container-teste erro'><img src={iconeExclamacao}alt='ícone de status'/>Câmera não encontrada.</div>

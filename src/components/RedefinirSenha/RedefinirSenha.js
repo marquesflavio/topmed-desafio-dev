@@ -1,21 +1,33 @@
 import './RedefinirSenha.css'
-// import LogoTopMed from '../../img/topmed_logo1.png'
+import LogoTopMed from '../../img/topmed_logo1.png'
+import { Link } from 'react-router-dom'
 
 const RedefinirSenha = () =>{
     return(
-        <div className="App">
+        <div className="App-redefinir-senha">
+            <div className='redefinir-senha-cabecalho'>
+                <p>Redefinição de senha</p>
+            </div>
             <div className='container-redefinir-senha'>
-                <h1 className='titulo-esqueceu-senha'>Esqueceu sua senha?</h1>
-                <p>Informe o endereço de e-mail cadastrado para receber o link de redefinição de senha.</p>
-                
-                <div className='campo-esqueceu-enviar'>
-                    <input type='text' placeholder='E-mail'></input>
-                    {/* <Link to="/emailenviado"><button>Enviar</button></Link>  */}
+
+                <p>Olá,</p>
+                <p>Recebemos sua solicitação de redefinição de senha do Consultório Pró.</p>
+                <p>Clique no botão abaixo para redefinir sua senha.</p>
+                                
+                <div className='campo-redef-senha-botao'>
+                    <Link to="/novasenha">
+                    <button>Redefinir Senha</button>
+                    </Link>
                 </div>
                 
-                <div className='campo-imagem'>
-                    {/* <img src={LogoTopMed} alt='Logo da TopMed' title="Logo da TopMed" className="logo-topmed"/> */}
-                    {/* <img src={LogoNext} alt='logo da NextPlus' title="Logo da Next" className="logo-nextplus"/> */}
+                <div className='container-redefinir-senha-texto'>
+                    <p>Esta deve ser uma senha de acesso exclsuiva do usuário, que não deve ser compartilhada com terceiros.</p>
+                    <p>Se necessário, a senha pode ser alterada posteriormente através do menu “Alterar minha senha” no Consultório Pró.</p>
+                </div>
+
+                <div className='redef-senha-imagem'>
+                    <img src={LogoTopMed} alt='Logo da TopMed' title="Logo da TopMed" className="logo-topmed"/>
+                    
                 </div>
             </div>
         </div>

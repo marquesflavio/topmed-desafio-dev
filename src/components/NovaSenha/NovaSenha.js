@@ -1,6 +1,7 @@
 import LogoTopMed from '../../img/topmed_logo1.png'
 import LogoNext from '../../img/nextplus-logo1.png'
 import './NovaSenha.css'
+import { Link } from 'react-router-dom'
 
 const NovaSenha = () =>{
     return(
@@ -14,8 +15,10 @@ const NovaSenha = () =>{
                 </div>
                 
                 <div className='campo-nova-senha'>
+                    <Link to="/">
                     <button className='enviar'>Redefinir Senha</button>
                     <button className='cancelar'>Cancelar</button>
+                    </Link>
                 </div>
                 
                 <div className='novasenha-imagem'>
