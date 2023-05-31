@@ -13,7 +13,7 @@ const EmailEnviado = () => {
                 
                 <div className='campo-email-enviado'>
                     <img src={emailenviado} alt='ícone de email eletrônico'/>
-                    <Link to="/"><button>Login</button></Link>
+                    <Link to="/redefinirsenha"><button>Login</button></Link>
                 </div>
                 
                 <div className='campo-imagem'>

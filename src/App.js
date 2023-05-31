@@ -1,5 +1,5 @@
 import './App.css';
-import EmailEnviado from './components/EmailEnviado/EmailEnviado';
+import RedefinirSenha from './components/RedefinirSenha/RedefinirSenha';
 import AppRoutes from './routes';
 
 
@@ -8,6 +8,7 @@ function App() {
 
     <div>
       <AppRoutes/>
+      <RedefinirSenha/>
     </div>
   );
 }

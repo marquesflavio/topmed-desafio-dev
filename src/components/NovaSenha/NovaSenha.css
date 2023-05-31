@@ -1,0 +1,37 @@
+.container-nova-senha {
+    width: 245px;
+    height: 315px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px;
+    line-height: 24.8px;
+    box-shadow: 3.06189px 3.06189px 3.06189px 3.06189px rgb(0 0 0 / 22%);
+}
+.campo-nova-senha{
+    text-align: center;
+    margin: 20px -3px -10px 0;
+}
+.campo-nova-senha button {
+    width: 132px;
+    height: 27px;
+    border-radius: 11.22px;
+    background-color: #3E9F96;
+    color: white;
+    font-weight: bold;
+    font-size: 11.5px;
+    border: none;
+    box-shadow: 0px 2.2439px 2.2439px rgb(0 0 0 / 25%);
+    text-transform: uppercase;
+    margin: 10px 0 10px 0;
+}
+.campo-nova-senha .cancelar{
+    text-transform: capitalize;
+    background-color: #FFF;
+    color: #3E9F96;
+    border: 1px solid #3E9F96;
+}
+.novasenha-imagem {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
