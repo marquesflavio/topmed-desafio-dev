@@ -20,17 +20,22 @@ const Home = () => {
         setValorSenha(e.target.value)
     }
     
-    function logarNoSistema(){
-        for(let i = 3; i>0; i--){
-            if (valorUsuario == "teste" && valorSenha == "teste"){
-                console.log('conseguiu logar')}
-            else {
-                alert(`Dados inválidos, restam ${i} tentativas.`)
-            } continue     
-        } 
-        
-    }
-   
+    // fetch ("http://localhost:4000/login-usuario",{
+    //     method: "POST",
+    //     headers: {
+    //         "content-type":"application/json"
+    //     },
+    //     body:JSON.stringify({email_usuario: "flavio@teste.com", senha_usuario:"1234"})
+    // });
+
+    // async function getUser(usuarios){
+    //     let response = await fetch(`http://localhost:4000/login-usuario/${usuarios}`);
+    //     let userdata = await response.json();
+    //     return userdata;
+    // }
+
+    // getUser()
+
     return(
         <div className="App">
             <div className='box-bemvindo'>
@@ -40,7 +45,7 @@ const Home = () => {
                 <div className='campo-login'>
                 <input type='text' value={valorUsuario} onChange={handleChange} placeholder='Usuário' className='usuario'></input>
                 <input type='password' value={valorSenha} onChange={handleChangeSenha}placeholder='Senha' className='senha'></input>
-                <button onClick={logarNoSistema}>Entrar</button>
+                <button>Entrar</button>
                 <Link to="/esqueceusenha"><p>Esqueceu sua senha?</p></Link>
                 </div>
 
