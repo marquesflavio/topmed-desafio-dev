@@ -4,8 +4,33 @@ import LogoNext from "../../img/nextplus-logo1.png"
 import imgsvg1 from "../../img/Group 1.svg"
 import camera from "../../img/camera.png"
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
+
 
 const Home = () => {
+    
+    const [valorUsuario, setValorUsuario] = useState('');
+    const [valorSenha, setValorSenha] = useState('');
+
+    const handleChange = (e) =>{
+        setValorUsuario(e.target.value)
+    }
+    
+    const handleChangeSenha = (e) => {
+        setValorSenha(e.target.value)
+    }
+    
+    function logarNoSistema(){
+        for(let i = 3; i>0; i--){
+            if (valorUsuario == "teste" && valorSenha == "teste"){
+                console.log('conseguiu logar')}
+            else {
+                alert(`Dados inválidos, restam ${i} tentativas.`)
+            } continue     
+        } 
+        
+    }
+   
     return(
         <div className="App">
             <div className='box-bemvindo'>
@@ -13,9 +38,9 @@ const Home = () => {
                 <p className='texto-cabecalho'>Faça o login para continuar.</p>
 
                 <div className='campo-login'>
-                <input type='text' placeholder='Usuário'></input>
-                <input type='text' placeholder='Senha'></input>
-                <button>Entrar</button>
+                <input type='text' value={valorUsuario} onChange={handleChange} placeholder='Usuário' className='usuario'></input>
+                <input type='password' value={valorSenha} onChange={handleChangeSenha}placeholder='Senha' className='senha'></input>
+                <button onClick={logarNoSistema}>Entrar</button>
                 <Link to="/esqueceusenha"><p>Esqueceu sua senha?</p></Link>
                 </div>
 

@@ -35,3 +35,15 @@
     display: flex;
     justify-content: space-between;
 }
+/* .nova-senha{
+    background-image: url('../../img/img-input/senha.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 0; 
+}
+.confirme-nova-senha{
+    background-image: url('../../img/img-input/check.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 0; 
+} */

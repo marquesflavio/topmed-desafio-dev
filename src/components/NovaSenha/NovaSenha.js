@@ -10,8 +10,8 @@ const NovaSenha = () =>{
                 <h1 className='titulo-esqueceu-senha'>Redefinição de Senha</h1>
                 
                 <div className='campo-login'>
-                    <input type='text' placeholder='Nova senha'></input>
-                    <input type='text' placeholder='Confirme a nova senha'></input>
+                    <input type='text' placeholder='Nova senha' className='nova-senha'></input>
+                    <input type='text' placeholder='Confirme a nova senha' className='confirme-nova-senha'></input>
                 </div>
                 
                 <div className='campo-nova-senha'>

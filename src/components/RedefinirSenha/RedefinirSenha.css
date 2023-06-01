@@ -54,12 +54,9 @@
     text-transform: uppercase;
     margin: 20px 0 20px 0;
 }
-.campo-redef-senha-botao button:hover{
-    text-decoration: underline;
-}
 .redef-senha-imagem {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 
 }
 .redef-senha-imagem img{

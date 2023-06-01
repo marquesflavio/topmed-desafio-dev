@@ -11,7 +11,7 @@ const EsqueceuSenha = () => {
                 <p>Informe o endereço de e-mail cadastrado para receber o link de redefinição de senha.</p>
                 
                 <div className='campo-esqueceu-enviar'>
-                    <input type='text' placeholder='E-mail'></input>
+                    <input type='text' placeholder='E-mail' className='email'></input>
                     <Link to="/emailenviado"><button>Enviar</button></Link> 
                 </div>
                 

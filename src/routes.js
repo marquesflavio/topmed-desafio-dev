@@ -5,6 +5,7 @@ import EsqueceuSenha from "./components/EsqueceuSenha/EsqueceuSenha";
 import EmailEnviado from "./components/EmailEnviado/EmailEnviado";
 import RedefinirSenha from "./components/RedefinirSenha/RedefinirSenha";
 import NovaSenha from "./components/NovaSenha/NovaSenha";
+import Logado from "./components/Logado/Logado";
 
 function AppRoutes() {
     return(
@@ -16,6 +17,7 @@ function AppRoutes() {
                 <Route path="/emailenviado" element={<EmailEnviado/> }></Route>
                 <Route path="/redefinirsenha" element={<RedefinirSenha/> }></Route>
                 <Route path="/novasenha" element={<NovaSenha/>}></Route>
+                <Route path="/logado" element={<Logado/>}></Route>
             </Routes>
         </BrowserRouter>
 

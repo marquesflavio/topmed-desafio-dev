@@ -35,7 +35,22 @@
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.22);
     padding: 5px;
+    
 }
+
+/* .usuario{
+    background-image: url('../../img/img-input/usuario.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 0;
+    
+}
+.senha{
+    background-image: url('../../img/img-input/senha.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 0;      
+} */
 .campo-login p{
     color: #5C5959;
     line-height: 17px;

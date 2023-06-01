@@ -1,0 +1,39 @@
+.box-logon {
+    width: 320px;
+    height: 300px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px;
+    line-height: 24.8px;
+    box-shadow: 3.06189px 3.06189px 10px 3.06189px rgb(0 0 0 / 22%);
+}
+.texto-logon {
+    margin: 15px 0 10px 30px;
+    color: #5C5959;
+    line-height: 17px;
+    font-size: 15px;
+}
+.campo-logon {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.campo-logon p {
+    color: #5C5959;
+    line-height: 17px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.campo-logon button{
+    width: 132px;
+    height: 27px;
+    border-radius: 11.22px;
+    background-color:#cf060657;
+    color:#8f1818;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 2.2439px 2.2439px rgba(0, 0, 0, 0.25);
+    margin: 40px 0 0 0;
+
+}

@@ -6,6 +6,10 @@
     --fontTitulo: 'Almarai', sans-serif;
     --fontTexto: 'Alata', sans-serif;
 }
+/* ::-webkit-input-placeholder{
+    position: absolute;
+    left: 20px;
+} */
 body{
     background-color: #E5E5E5;
     font-family: var(--fontTexto);
