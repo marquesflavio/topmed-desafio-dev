@@ -1,1 +1,1 @@
-## Para executar projeto, acessar link : [deploy via Vercel ao final do projeto]
+## Para executar projeto, acessar link : https://topmed-desafio-dev.vercel.app/
